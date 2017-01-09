@@ -24,7 +24,7 @@
           <br><br>
       <label>Phone No: </label>
         <input type="text" class="newsletter" name="phone" placeholder="Phone Number ###-###-####"
-        ng-model="newsCtrl.user.phone"
+        ng-model="newsCtrl.user.phone" ng-required="true"
         pattern="(\d{3})-(\d{3})-(\d{4})"/>
         <span ng-if="newsletter.phone.$invalid && newsletter.phone.$touched">
           Phone No should be of the format ###-###-####</span>
