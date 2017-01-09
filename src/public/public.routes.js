@@ -43,7 +43,7 @@ function routeConfig ($stateProvider) {
     })
     .state('public.newsletter', {
       url: '/newsletter',
-      templateUrl: 'src/public/NewsLetter/newsletter.html',
+      templateUrl: 'src/public/Newsletter/newsletter.html',
       controller: 'newsletterController',
       controllerAs: 'newsCtrl'
     })
